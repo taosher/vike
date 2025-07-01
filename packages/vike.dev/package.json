@@ -6,6 +6,7 @@
     "typecheck": "tsc --noEmit --watch"
   },
   "dependencies": {
+    "vite-plugin-vercel": "^9.0.7",
     "@batijs/elements": "^0.0.48",
     "@brillout/docpress": "^0.15.5",
     "@types/react": "^19.0.2",
