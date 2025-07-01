@@ -1,4 +1,5 @@
 import svgr from 'vite-plugin-svgr'
+import vercel from 'vite-plugin-vercel'
 import type { UserConfig } from 'vite'
 
 export default {
@@ -6,6 +7,7 @@ export default {
   plugins: [
     // Used by the landing page, see `.svg?react` imports
     svgr(),
+    vercel(),
   ],
   // https://github.com/vikejs/vike/blob/08a1ff55c80ddca64ca6d4417fefd45fefeb4ffb/vike/node/plugin/plugins/replaceConstants.ts#L32
   // @ts-expect-error
