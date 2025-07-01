@@ -5,7 +5,6 @@
     "dev": "cd packages/vike/ && pnpm run dev",
     "========= Build": "",
     "// Build Vike": "",
-    "install": "pnpm install",
     "build": "cd packages/vike/ && pnpm run build",
     "========= Test": "",
     "test": "vitest run && test-e2e && test-types",
